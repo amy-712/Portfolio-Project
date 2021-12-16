@@ -1,19 +1,21 @@
 :root {
   --primary-font: "Poppins", sans-serif;
   --accent-font: "Playfair Display", serif;
-  --primary-color: #f9f7fe;
-  --accent-color: #6c63ff;
+  --primary-color: #e4f1fe;
+  --accent-color: #81b2e3;
 }
 body {
   font-family: var(--primary-font);
 }
-h1 {
+h1,
+h2,
+h3 {
   font-family: var(--accent-font);
   font-weight: bold;
 }
 .hero {
   text-align: center;
-  padding: 276px 20px;
+  padding: 170px 20px;
   background: var(--primary-color);
 }
 .hero h1 {
@@ -36,4 +38,7 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
+}
+.featured {
+  padding: 20px 0;
 }
