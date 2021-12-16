@@ -42,3 +42,12 @@ h3 {
 .featured {
   padding: 20px 0;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 64px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+}
