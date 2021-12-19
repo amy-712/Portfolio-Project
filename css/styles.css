@@ -13,6 +13,20 @@ h3 {
   font-family: var(--accent-font);
   font-weight: bold;
 }
+.about-section {
+  padding: 170px 20px;
+}
+
+.about-content h1 {
+  font-size: 64px;
+}
+.about-content h2 {
+  font-size: 18px;
+}
+.about-content p {
+  font-size: 16px;
+}
+
 .hero {
   text-align: center;
   padding: 170px 20px;
