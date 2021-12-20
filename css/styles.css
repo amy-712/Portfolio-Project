@@ -56,6 +56,10 @@ h3 {
 .featured {
   padding: 20px 0;
 }
+.work-section {
+  padding: 170px 20px;
+  margin: 30px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 64px;
