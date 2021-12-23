@@ -14,7 +14,7 @@ h3 {
   font-weight: bold;
 }
 .about-section {
-  padding: 170px 20px;
+  padding: 80px 20px;
 }
 
 .about-content h1 {
@@ -52,18 +52,48 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
+  transition: all 150ms ease-in-out;
+}
+.btn-contact:hover {
+  background: white;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .featured {
   padding: 20px 0;
 }
-.contact-section {
-  padding: 170px 20px;
-  margin: 30px;
-}
+
 .work-section {
-  padding: 170px 20px;
+  padding: 80px 20px;
   margin: 30px;
 }
+.work-section h1 {
+  background-color: var(--primary-color);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+footer {
+  margin: 60px;
+}
+footer .social-links a {
+  margin: 10px;
+  background-color: var(--primary-color);
+  font-size: 18px;
+  padding: 10px 12px;
+  border-radius: 10%;
+  color: var(--accent-color);
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--accent-color);
+}
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 80px;
+  border-radius: 10px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 64px;
